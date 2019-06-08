@@ -1,0 +1,54 @@
+[
+	{ 
+        "id": 1, 
+        "src": "Megaman.png" 
+    },
+	{ 
+        "id": 2, 
+        "src": "Light.png" 
+    },
+	{ 
+        "id": 3, 
+        "src": "Roll.jpeg" 
+    },
+	{ 
+        "id": 4, 
+        "src": "Wily.png" 
+    },
+	{ 
+        "id": 5, 
+        "src": "Protoman.png" 
+    },
+	{ 
+        "id": 6, 
+        "src": "Bubbleman.png" 
+    },
+	{ 
+        "id": 7, 
+        "src": "Crashman.png" 
+    },
+	{ 
+        "id": 8, 
+        "src": "Heatman.png" 
+    },
+	{ 
+        "id": 9, 
+        "src": "Quickman.jpg"
+    },
+	{ 
+        "id": 10, 
+        "src": "Metalman.jpg" 
+    },
+	{ 
+        "id": 11, 
+        "src": "Flashman.png" 
+    },
+    { 
+        "id": 12, 
+        "src": "Airman.png" 
+    },
+    { 
+        "id": 13, 
+        "src": "Woodman.jpg"
+    }
+]
