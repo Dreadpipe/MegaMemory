@@ -1,54 +1,67 @@
 [
 	{ 
         "id": 1, 
-        "src": "Megaman.png" 
+        "src": "Megaman.png",
+        "name": "Megaman"
     },
 	{ 
         "id": 2, 
-        "src": "Light.png" 
+        "src": "Light.png",
+        "name": "Dr. Light" 
     },
 	{ 
         "id": 3, 
-        "src": "Roll.jpeg" 
+        "src": "Roll.jpeg",
+        "name": "Roll"
     },
 	{ 
         "id": 4, 
-        "src": "Wily.png" 
+        "src": "Wily.png",
+        "name": "Wily" 
     },
 	{ 
         "id": 5, 
-        "src": "Protoman.png" 
+        "src": "Protoman.png",
+        "name:": "Protoman" 
     },
 	{ 
         "id": 6, 
-        "src": "Bubbleman.png" 
+        "src": "Bubbleman.png",
+        "name": "Bubbleman" 
     },
 	{ 
         "id": 7, 
-        "src": "Crashman.png" 
+        "src": "Crashman.png",
+        "name": "Crashman" 
     },
 	{ 
         "id": 8, 
-        "src": "Heatman.png" 
+        "src": "Heatman.png",
+        "name": "Heatman" 
     },
 	{ 
         "id": 9, 
-        "src": "Quickman.jpg"
+        "src": "Quickman.jpg",
+        "name": "Quickman"
     },
 	{ 
         "id": 10, 
-        "src": "Metalman.jpg" 
+        "src": "Metalman.jpg",
+        "name": "Metalman" 
     },
 	{ 
         "id": 11, 
-        "src": "Flashman.png" 
+        "src": "Flashman.png",
+        "name": "Flashman" 
     },
     { 
         "id": 12, 
-        "src": "Airman.png" 
+        "src": "Airman.png",
+        "name": "Airman" 
     },
     { 
         "id": 13, 
-        "src": "Woodman.jpg"
+        "src": "Woodman.jpg",
+        "name": "Woodman"
     }
 ]

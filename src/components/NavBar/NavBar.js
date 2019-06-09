@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function NavBar() {
+function NavBar(props) {
     return (
         <nav className="nav">
             <ul>
@@ -12,7 +12,7 @@ function NavBar() {
                     Click an image to begin!
                 </li>
                 <li>
-                    Score: {score} | Top Score: {topScore}
+                    Score: {props.score} | Top Score: {props.topScore}
                 </li>
             </ul>
         </nav>
