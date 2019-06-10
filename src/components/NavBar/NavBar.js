@@ -6,7 +6,9 @@ function NavBar(props) {
         <nav className="navbar">
             <ul>
                 <li>
-                    Return to Home?
+                    <a href="/">
+                    reset!
+                    </a>
                 </li>
                 <li>
                     Click an image to begin!

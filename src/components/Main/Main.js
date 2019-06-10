@@ -35,7 +35,11 @@ class Main extends Component {
 
 
     handleClick() {
-        console.log (robots[0].src);
+        //breaks here
+        const shuffledArray = this.state.robots.sort(robot => Math.random(robot) -0.5);
+        this.setState({ robots: shuffledArray });
+        
+        
     }
 
 
