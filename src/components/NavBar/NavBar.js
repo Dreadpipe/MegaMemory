@@ -3,7 +3,7 @@ import "./style.css";
 
 function NavBar(props) {
     return (
-        <nav className="nav">
+        <nav className="navbar">
             <ul>
                 <li>
                     Return to Home?

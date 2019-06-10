@@ -23,7 +23,7 @@
   color: #61dafb;
 }
 
-.parent {
+/* .parent {
 
   display: grid;
   
@@ -35,7 +35,7 @@
   
   grid-row-gap: 6px;
   
-  }
+  } */
 
 @keyframes App-logo-spin {
   from {

@@ -10,11 +10,6 @@
         "name": "Dr. Light" 
     },
 	{ 
-        "id": 3, 
-        "src": "Roll.jpeg",
-        "name": "Roll"
-    },
-	{ 
         "id": 4, 
         "src": "Wily.png",
         "name": "Wily" 

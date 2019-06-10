@@ -27,27 +27,16 @@ class Main extends Component {
 // 3) reset score when matching id is clicked
 // 4) increase score by 1 when non-id is clicked
 
-// Study group ftw: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
-    shuffle = array => {
-        var currentIndex = array.length, temporaryValue, randomIndex;
-            
-        // While there remain elements to shuffle...
-        while (0 !== currentIndex) {
-            
-        // Pick a remaining element...
-            randomIndex = Math.floor(Math.random() * currentIndex);
-            currentIndex -= 1;
-
-        // And swap it with the current element.
-            temporaryValue = array[currentIndex];
-            array[currentIndex] = array[randomIndex];
-            array[randomIndex] = temporaryValue;
-            }
-        return array;
-        };
+    componentDidMount() {
+        const shuffledArray = this.state.robots.sort(robot => Math.random() -0.5);
+        this.setState({ robots: shuffledArray })
+    };
 
 
+    handleClick() {
+        console.log (robots[0].src);
+    }
 
 
 
@@ -59,16 +48,18 @@ class Main extends Component {
                     score={this.state.score}
                     topScore={this.state.topScore}
                 />
-                <Header />
+                <Header>Play the Mega Man Memory Game!</Header>
+                <div class="container">
                     {this.state.robots.map(robot => (
                         <RobotCard 
                             key={robot.id}
                             id={robot.id}
                             alt={robot.name}
-                            src={robot.image}
+                            src={robot.src}
                             handleClick={this.handleClick}
                         />
                     ))}
+                </div>
                 <Footer />
             </div>
         )
