@@ -7,7 +7,7 @@ function Footer(props) {
     return (
         <footer className="footer">
             <div className="bottom">
-                Clicky Game!
+                <a href="https://dreadpipe.github.io/v2portfolio/index.html">Ben Harris Portfolio</a>
             </div>
         </footer>
 

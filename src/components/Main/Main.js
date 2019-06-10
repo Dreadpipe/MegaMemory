@@ -27,17 +27,30 @@ class Main extends Component {
 // 3) reset score when matching id is clicked
 // 4) increase score by 1 when non-id is clicked
 
+    
 
     componentDidMount() {
+        const robots = this.state.robots;
         const shuffledArray = this.state.robots.sort(robot => Math.random() -0.5);
-        this.setState({ robots: shuffledArray })
+        this.setState({ robots: shuffledArray });
     };
 
 
-    handleClick() {
-        //breaks here
+    handleClick = id => {
+        let clickedArray = this.state.clicked;
         const shuffledArray = this.state.robots.sort(robot => Math.random(robot) -0.5);
         this.setState({ robots: shuffledArray });
+            if (clickedArray.includes(id)) {
+                this.setState({ score: 0 });
+                console.log("Ya fucked up!");
+                clickedArray = [];
+                console.log(clickedArray);
+                return clickedArray;
+            } else {
+                this.setState({ score: this.state.score + 1 })
+                clickedArray.push(id);
+                return clickedArray;
+            }
         
         
     }
@@ -52,7 +65,12 @@ class Main extends Component {
                     score={this.state.score}
                     topScore={this.state.topScore}
                 />
-                <Header>Play the Mega Man Memory Game!</Header>
+                <Header>
+                        Play the Mega Man 2 Memory Game!
+                    <p>
+                        Click a character, but don't click the same one twice!
+                    </p> 
+                    </Header>
                 <div className="container">
                     {this.state.robots.map(robot => (
                         <RobotCard 
