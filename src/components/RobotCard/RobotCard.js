@@ -9,11 +9,11 @@ function RobotCard(props) {
     return ( 
         <div className="card">
             <div 
-                className="img-container" 
+                className="img-container"
                 key={props.id}
                 id={props.id}
                 onClick={() => props.handleClick(props.id)}>
-                    <img alt={props.name} src={require(`../../images/${props.src}`)}/>
+                    <img className="click-item" alt={props.name} src={require(`../../images/${props.src}`)}/>
             </div>
         </div>
     );

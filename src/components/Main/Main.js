@@ -49,7 +49,7 @@ class Main extends Component {
                     topScore={this.state.topScore}
                 />
                 <Header>Play the Mega Man Memory Game!</Header>
-                <div class="container">
+                <div className="container">
                     {this.state.robots.map(robot => (
                         <RobotCard 
                             key={robot.id}

@@ -5,10 +5,20 @@ import "./style.css";
 
 function Footer(props) {
     return (
-        <footer>
-            <h1>Believe in yourself!</h1>
+        <footer className="footer">
+            <div className="bottom">
+                Clicky Game!
+            </div>
         </footer>
+
     )
 };
 
 export default Footer;
+
+
+
+
+// {/* <footer>    */}
+//      {/* <h1>Believe in yourself!</h1>
+// </footer> */}
