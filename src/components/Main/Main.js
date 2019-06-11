@@ -21,18 +21,6 @@ class Main extends Component {
         
     };
 
-    // shuffleArray = () => {
-    //     const shuffledArray = this.state.robots.sort(() => Math.Random() - 0.5);
-    //     this.setState({robots: shuffledArray})
-    // }
-    
-    // componentDidMount() {
-    //     this.shuffleArray();
-    // }
-    
-    // handleClick = id => {
-    //     this.shuffleArray();
-    // }
 //need to 
 // 1) shuffle when clicked
 // 2) update array when shuffled
@@ -55,13 +43,13 @@ class Main extends Component {
         this.setState({ robots: shuffledArray });
             if (clickedArray.includes(id)) {
                 this.setState({ score: 0, clicked: [] });
-                console.log("Ya fucked up!");
-                console.log(clickedArray);
-                console.log(this.state.clicked);
                 return clickedArray;
             } else {
                 this.setState({ score: this.state.score + 1 })
                 clickedArray.push(id);
+                if (this.state.score === this.state.topScore) {
+                    this.setState({ topScore: this.state.score + 1 });
+                }
                 return clickedArray;
             }
     }
