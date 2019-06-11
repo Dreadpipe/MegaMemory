@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/megamemory/static/css/main.781a9d4f.chunk.css",
+    "main.js": "/megamemory/static/js/main.a83d5291.chunk.js",
+    "main.js.map": "/megamemory/static/js/main.a83d5291.chunk.js.map",
+    "runtime~main.js": "/megamemory/static/js/runtime~main.bcfc3fcb.js",
+    "runtime~main.js.map": "/megamemory/static/js/runtime~main.bcfc3fcb.js.map",
+    "static/js/2.98dcc9dd.chunk.js": "/megamemory/static/js/2.98dcc9dd.chunk.js",
+    "static/js/2.98dcc9dd.chunk.js.map": "/megamemory/static/js/2.98dcc9dd.chunk.js.map",
+    "index.html": "/megamemory/index.html",
+    "precache-manifest.3c69044a547aca086a89b6348f6e18aa.js": "/megamemory/precache-manifest.3c69044a547aca086a89b6348f6e18aa.js",
+    "service-worker.js": "/megamemory/service-worker.js",
+    "static/css/main.781a9d4f.chunk.css.map": "/megamemory/static/css/main.781a9d4f.chunk.css.map",
+    "static/media/Airman.png": "/megamemory/static/media/Airman.377ea704.png",
+    "static/media/Bubbleman.png": "/megamemory/static/media/Bubbleman.1f84e773.png",
+    "static/media/Crashman.png": "/megamemory/static/media/Crashman.095d1def.png",
+    "static/media/Flashman.png": "/megamemory/static/media/Flashman.5e7ce27e.png",
+    "static/media/Heatman.png": "/megamemory/static/media/Heatman.5607d19a.png",
+    "static/media/Light.png": "/megamemory/static/media/Light.6dde7cd4.png",
+    "static/media/Megaman.png": "/megamemory/static/media/Megaman.a42524cc.png",
+    "static/media/Metalman.jpg": "/megamemory/static/media/Metalman.db74ae9b.jpg",
+    "static/media/Protoman.png": "/megamemory/static/media/Protoman.69834465.png",
+    "static/media/Quickman.jpg": "/megamemory/static/media/Quickman.1f45bd4c.jpg",
+    "static/media/Roll.png": "/megamemory/static/media/Roll.1cd694e6.png",
+    "static/media/Wily.png": "/megamemory/static/media/Wily.b6905d1b.png",
+    "static/media/Woodman.jpg": "/megamemory/static/media/Woodman.b1688116.jpg"
+  }
+}
