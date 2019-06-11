@@ -14,23 +14,36 @@ import Footer from "../Footer/Footer";
 class Main extends Component {
 
     state ={
-        robots,
+        robots: robots,
         score: 0,
         topScore: 0,
         clicked: [],
         
     };
 
+    // shuffleArray = () => {
+    //     const shuffledArray = this.state.robots.sort(() => Math.Random() - 0.5);
+    //     this.setState({robots: shuffledArray})
+    // }
+    
+    // componentDidMount() {
+    //     this.shuffleArray();
+    // }
+    
+    // handleClick = id => {
+    //     this.shuffleArray();
+    // }
 //need to 
 // 1) shuffle when clicked
 // 2) update array when shuffled
 // 3) reset score when matching id is clicked
 // 4) increase score by 1 when non-id is clicked
 
+
+
     
 
     componentDidMount() {
-        const robots = this.state.robots;
         const shuffledArray = this.state.robots.sort(robot => Math.random() -0.5);
         this.setState({ robots: shuffledArray });
     };
@@ -41,18 +54,16 @@ class Main extends Component {
         const shuffledArray = this.state.robots.sort(robot => Math.random(robot) -0.5);
         this.setState({ robots: shuffledArray });
             if (clickedArray.includes(id)) {
-                this.setState({ score: 0 });
+                this.setState({ score: 0, clicked: [] });
                 console.log("Ya fucked up!");
-                clickedArray = [];
                 console.log(clickedArray);
+                console.log(this.state.clicked);
                 return clickedArray;
             } else {
                 this.setState({ score: this.state.score + 1 })
                 clickedArray.push(id);
                 return clickedArray;
             }
-        
-        
     }
 
 
